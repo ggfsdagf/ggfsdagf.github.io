@@ -7,7 +7,20 @@ body {
     display: flex;
     justify-content: center; /* 화면 중앙 정렬 */
 }
+/* 우측 상단 프로필 정보 디자인 */
+.top-right-profile {
+    position: absolute; /* 요소를 화면의 절대적인 위치에 고정 */
+    top: 20px;          /* 화면 위쪽에서 20px 띄움 */
+    right: 30px;        /* 화면 오른쪽에서 30px 띄움 */
+    text-align: right;  /* 글자를 오른쪽으로 정렬 */
+    font-size: 14px;    /* 글자 크기 */
+    color: #a0a0a0;     /* 너무 튀지 않는 밝은 회색 */
+}
 
+/* 프로필 안의 p태그(문단) 위아래 여백 없애기 */
+.top-right-profile p {
+    margin: 3px 0; /* 줄 간격을 촘촘하게 조절 */
+}
 /* 2. 콘텐츠가 들어갈 중앙 컨테이너 크기 제한 */
 .container {
     width: 100%;
